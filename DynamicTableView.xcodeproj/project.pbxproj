@@ -14,6 +14,7 @@
 		7DD37A8E212C2C95008D0B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD37A8C212C2C95008D0B43 /* LaunchScreen.storyboard */; };
 		7DD37A99212C2C95008D0B43 /* DynamicTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD37A98212C2C95008D0B43 /* DynamicTableViewTests.swift */; };
 		7DD37AA4212C2C95008D0B43 /* DynamicTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD37AA3212C2C95008D0B43 /* DynamicTableViewUITests.swift */; };
+		7DD37AB2212C2E1B008D0B43 /* StudentClassCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD37AB1212C2E1B008D0B43 /* StudentClassCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7DD37A9F212C2C95008D0B43 /* DynamicTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD37AA3212C2C95008D0B43 /* DynamicTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewUITests.swift; sourceTree = "<group>"; };
 		7DD37AA5212C2C95008D0B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DD37AB1212C2E1B008D0B43 /* StudentClassCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentClassCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				7DD37A8A212C2C95008D0B43 /* Assets.xcassets */,
 				7DD37A8C212C2C95008D0B43 /* LaunchScreen.storyboard */,
 				7DD37A8F212C2C95008D0B43 /* Info.plist */,
+				7DD37AB1212C2E1B008D0B43 /* StudentClassCell.swift */,
 			);
 			path = DynamicTableView;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DD37A86212C2C94008D0B43 /* ViewController.swift in Sources */,
+				7DD37AB2212C2E1B008D0B43 /* StudentClassCell.swift in Sources */,
 				7DD37A84212C2C94008D0B43 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
